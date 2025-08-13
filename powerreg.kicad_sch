@@ -3936,7 +3936,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 139.7 80.01)
+			(xy 146.05 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4126,7 +4126,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 139.7 80.01)
+			(xy 142.24 73.66) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4153,16 +4153,6 @@
 			(type default)
 		)
 		(uuid "2caab26e-3fec-494e-8d5b-1ae31624ebcd")
-	)
-	(wire
-		(pts
-			(xy 43.18 120.65) (xy 44.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dd393ae-bd6d-4c65-991d-22d153034b64")
 	)
 	(wire
 		(pts
@@ -4206,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 119.38) (xy 43.18 119.38)
+			(xy 58.42 121.92) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4606,16 +4596,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 121.92) (xy 59.69 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7278e879-b90d-4ff8-bacd-3c0eb7b60c34")
-	)
-	(wire
-		(pts
 			(xy 111.76 203.2) (xy 116.84 203.2)
 		)
 		(stroke
@@ -4653,16 +4633,6 @@
 			(type default)
 		)
 		(uuid "75d5940a-dd44-4d17-8519-d8641649c97f")
-	)
-	(wire
-		(pts
-			(xy 140.97 121.92) (xy 146.05 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f97fb2-fd87-4a8c-aeb5-c93eccf98d92")
 	)
 	(wire
 		(pts
@@ -4856,16 +4826,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 120.65) (xy 44.45 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97aa9d3d-bce9-4d2e-a7e4-a794c595e2de")
-	)
-	(wire
-		(pts
 			(xy 269.24 220.98) (xy 269.24 222.25)
 		)
 		(stroke
@@ -4896,7 +4856,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 123.19) (xy 146.05 121.92)
+			(xy 146.05 115.57) (xy 146.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5073,16 +5033,6 @@
 			(type default)
 		)
 		(uuid "ac7216f5-80bc-431e-8598-0b12942695a8")
-	)
-	(wire
-		(pts
-			(xy 43.18 119.38) (xy 43.18 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad83d1f7-a297-4a16-ac49-ff8fbf6c41a8")
 	)
 	(wire
 		(pts
@@ -5336,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d743845d-69c1-4f07-a951-ef4f50a0ca34")
+	)
+	(wire
+		(pts
 			(xy 137.16 123.19) (xy 137.16 128.27)
 		)
 		(stroke
@@ -5343,16 +5303,6 @@
 			(type default)
 		)
 		(uuid "d90bc03a-b38a-4a3e-8fbe-04fdee61e413")
-	)
-	(wire
-		(pts
-			(xy 140.97 114.3) (xy 140.97 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dabcc495-43ea-4452-8d0b-bd9a2cf80f48")
 	)
 	(wire
 		(pts
@@ -5486,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 196.85) (xy 77.47 196.85)
+			(xy 76.2 196.85) (xy 77.47 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 114.3) (xy 151.13 121.92)
+			(xy 156.21 115.57) (xy 156.21 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5696,7 +5646,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 121.92) (xy 161.29 121.92)
+			(xy 156.21 121.92) (xy 161.29 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9190,7 +9140,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:FXL0530-6R8-M")
-		(at 146.05 114.3 0)
+		(at 151.13 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9199,7 +9149,7 @@
 		(fields_autoplaced yes)
 		(uuid "639eb30e-2071-4df3-94c3-5b90c3cf36ed")
 		(property "Reference" "L3"
-			(at 146.05 109.22 0)
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9157,7 @@
 			)
 		)
 		(property "Value" "FXL0530-6R8-M"
-			(at 146.05 111.76 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +9165,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:IND-SMD_L5.4-W5.2_FXL0530"
-			(at 146.05 121.92 0)
+			(at 151.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +9174,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Others_6-8uH-20_C177249.html"
-			(at 146.05 124.46 0)
+			(at 151.13 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,7 +9183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 114.3 0)
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +9192,7 @@
 			)
 		)
 		(property "LCSC Part" "C177249"
-			(at 146.05 127 0)
+			(at 151.13 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +9810,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.906 78.232 90)
+			(at 136.144 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,7 +10493,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SMD1206-150C-16V")
-		(at 35.56 119.38 0)
+		(at 53.34 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10552,7 +10502,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c0dbd53-3146-45e1-b53e-c8428db06663")
 		(property "Reference" "F1"
-			(at 35.56 113.03 0)
+			(at 53.34 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10510,7 @@
 			)
 		)
 		(property "Value" "SMD1206-150C-16V"
-			(at 35.56 115.57 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10518,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:F1206"
-			(at 35.56 127 0)
+			(at 53.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 119.38 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +10536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 119.38 0)
+			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10545,7 @@
 			)
 		)
 		(property "LCSC Part" "C2760275"
-			(at 35.56 129.54 0)
+			(at 53.34 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11037,7 +10987,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 48.26 196.85 90)
+		(at 66.04 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11045,7 +10995,7 @@
 		(dnp no)
 		(uuid "8ff142e3-4cd2-4ea6-abcf-be873e9bd38a")
 		(property "Reference" "#PWR0226"
-			(at 52.07 196.85 0)
+			(at 69.85 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11054,7 +11004,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 42.164 196.596 90)
+			(at 59.944 196.596 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,7 +11013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 196.85 0)
+			(at 66.04 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,7 +11022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 196.85 0)
+			(at 66.04 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +11031,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 48.26 196.85 0)
+			(at 66.04 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12811,7 +12761,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:SMD1206-150C-16V")
-		(at 53.34 196.85 0)
+		(at 71.12 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12820,7 +12770,7 @@
 		(fields_autoplaced yes)
 		(uuid "b94e7fc2-e41e-4025-9cb5-681742df9143")
 		(property "Reference" "F2"
-			(at 53.34 190.5 0)
+			(at 71.12 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12828,7 +12778,7 @@
 			)
 		)
 		(property "Value" "SMD1206-150C-16V"
-			(at 53.34 193.04 0)
+			(at 71.12 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12836,7 +12786,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:F1206"
-			(at 53.34 204.47 0)
+			(at 71.12 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,7 +12795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 196.85 0)
+			(at 71.12 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12854,7 +12804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 196.85 0)
+			(at 71.12 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12863,7 +12813,7 @@
 			)
 		)
 		(property "LCSC Part" "C2760275"
-			(at 53.34 207.01 0)
+			(at 71.12 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13290,7 +13240,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 30.48 119.38 90)
+		(at 48.26 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13298,7 +13248,7 @@
 		(dnp no)
 		(uuid "cf6bffd7-bb03-4b55-be3f-8ae21cbe1998")
 		(property "Reference" "#PWR089"
-			(at 34.29 119.38 0)
+			(at 52.07 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13307,7 +13257,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 24.384 119.126 90)
+			(at 42.164 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +13266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 119.38 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,7 +13275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 119.38 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,7 +13284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 30.48 119.38 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
