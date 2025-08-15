@@ -622,6 +622,10 @@
       {
         "netclass": "DIFF_90_mid",
         "pattern": "usb3*"
+      },
+      {
+        "netclass": "diff_100_top",
+        "pattern": "HDMI*"
       }
     ]
   },
