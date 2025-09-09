@@ -14,32 +14,32 @@ This board is a development platform for creating a responsive sleeping environm
 ## Hardware Features
 
 ### Core Components
-* [cite_start]**Microcontroller:** STMicroelectronics **STM32G474RET6** [cite: 84]
-* [cite_start]**Host Processor:** **Raspberry Pi Compute Module 5 (CM5)** [cite: 49]
-* [cite_start]**Peltier Drivers:** 2x Texas Instruments **DRV8701ERGER** H-Bridge Gate Drivers[cite: 159, 160], controlling two pairs of TEC-12712 Peltier modules.
-* [cite_start]**Audio Amplifier:** Texas Instruments **TAS5805MPWPR** Class-D stereo amplifier with I2S and I2C interfaces[cite: 422], designed for 8-ohm speaker drivers.
+* **Microcontroller:** STMicroelectronics **STM32G474RET6**
+* **Host Processor:** **Raspberry Pi Compute Module 5 (CM5)**
+* **Peltier Drivers:** 2x Texas Instruments **DRV8701ERGER** H-Bridge Gate Drivers, controlling two pairs of TEC-12712 Peltier modules.
+* **Audio Amplifier:** Texas Instruments **TAS5805MPWPR** Class-D stereo amplifier with I2S and I2C interfaces, designed for 8-ohm speaker drivers.
 
 ### Actuators & Outputs
-* [cite_start]**Dual H-Bridges:** For bidirectional (heating/cooling) control of two independent Peltier zones[cite: 2, 90].
-* [cite_start]**PWM Fan Control:** Three 4-pin PWM fan headers with tachometer feedback[cite: 6].
-* [cite_start]**Pump Drivers:** Two channels for driving 12V water pumps[cite: 6].
-* [cite_start]**Solenoid Drivers:** Two channels for controlling 12V solenoid valves[cite: 6].
+* **Dual H-Bridges:** For bidirectional (heating/cooling) control of two independent Peltier zones.
+* **PWM Fan Control:** Three 4-pin PWM fan headers with tachometer feedback.
+* **Pump Drivers:** Two channels for driving 12V water pumps.
+* **Solenoid Drivers:** Two channels for controlling 12V solenoid valves.
 
 ### Sensors & Inputs
-* [cite_start]**Thermistors:** Four dedicated inputs for NTC thermistors to monitor Peltier and water temperatures[cite: 8].
-* [cite_start]**Current Sensing:** On-board current sensing circuits for each Peltier H-bridge[cite: 132, 143].
-* [cite_start]**Water Presence Sensor:** Input for a water detection sensor[cite: 8].
-* [cite_start]**Float Valve Switch:** Input for a reservoir level float switch[cite: 8].
-* [cite_start]**H-Bridge Fault Detection:** Dedicated fault inputs from each DRV8701 driver for error handling[cite: 159, 160].
+* **Thermistors:** Four dedicated inputs for NTC thermistors to monitor Peltier and water temperatures.
+* **Current Sensing:** On-board current sensing circuits for each Peltier H-bridge.
+* **Water Presence Sensor:** Input for a water detection sensor.
+* **Float Valve Switch:** Input for a reservoir level float switch.
+* **H-Bridge Fault Detection:** Dedicated fault inputs from each DRV8701 driver for error handling.
 
 ### Connectivity & Peripherals
-* [cite_start]**STM32-CM5 Link:** **UART** for command and control[cite: 465, 741].
-* [cite_start]**Display:** **MIPI DSI** connector for a touchscreen display[cite: 44, 518].
+* **STM32-CM5 Link:** **UART** for command and control.
+* **Display:** **MIPI DSI** connector for a touchscreen display.
 * **USB Ports:**
-    * [cite_start]1x USB-A 3.0 port[cite: 370].
-    * [cite_start]2x USB-C ports[cite: 373, 374].
-* [cite_start]**Video Output:** 1x **HDMI** port[cite: 46].
-* [cite_start]**Storage:** On-board **MicroSD card** reader connected to the CM5[cite: 343, 349].
+    * 1x USB-A 3.0 port.
+    * 2x USB-C ports.
+* **Video Output:** 1x **HDMI** port.
+* **Storage:** On-board **MicroSD card** reader connected to the CM5.
 
 ### PCB & Power Specifications
 * **Power Input:** Requires a 12V DC power supply capable of providing approximately 350 watts.
@@ -106,8 +106,8 @@ The following table details the primary pin assignments for the STM32 microcontr
 | Fan 2 TACH | `PB6` | TIM8_CH1: Input capture for Fan 2 RPM. |
 | Fan 3 PWM | `PB9` | TIM4_CH4: PWM output for Fan 3 speed. |
 | **Communication** | | |
-| UART TX (to CM5) | `PC4` | [cite_start]Transmits data and responses to the Pi. [cite: 741] |
-| UART RX (from CM5) | `PC5` | [cite_start]Receives commands from the Pi. [cite: 741] |
+| UART TX (to CM5) | `PC4` | Transmits data and responses to the Pi. |
+| UART RX (from CM5) | `PC5` | Receives commands from the Pi. |
 | **Audio Interface** | | |
 | I2S LRCLK | `PA15` | I2S Left/Right Clock (Word Select). |
 | I2S SDIN | `PB15` | I2S Serial Data In to the audio amplifier. |
